@@ -16,9 +16,9 @@ def binary_search(input_list, item):
 
     return None
 
-input_list_1 = [2,4,5,6,7,7,8,9,3,4,14,54,2,19]
+input_list_1 = [2,4,5,6,7,7,8,9,9,14,14,23,26,59]
 item_1 = 14
-input_list_2 = [2,46,5,6,3,7,8,10,3,4,14,54,2,19]
+input_list_2 = [2,6,15,16,33,37,58,60,63,64,64,74,82,99]
 item_2 = 1
 
 print(binary_search(input_list=input_list_1, item=item_1))
